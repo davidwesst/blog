@@ -7,6 +7,7 @@ originalurl: https://www.davidwesst.com/blog/out-the-door-post-jam-update
 categories:
     - projects
     - video games
+    - video
 tags:
     - ludum dare
     - ludum dare 47
@@ -14,7 +15,9 @@ tags:
     - game design
     - gamejam
     - out the door
+    - video
 excerpt: "My effort continues on Out the Door with some new artwork, a rewrite (of sorts) to fix the build process, which has led to something of a self-driven code review."
+youtube_url: https://youtu.be/LLXO-6Pretk
 ---
 
 My effort continues on Out the Door with some new artwork, a rewrite (of sorts) to fix the build process, which has led to something of a self-driven code review.

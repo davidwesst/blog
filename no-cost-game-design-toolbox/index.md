@@ -7,6 +7,7 @@ originalurl: http://www.davidwesst.com/blog/no-cost-game-design-toolbox/
 categories:
     - development
     - video games
+    - video
 tags:
     - Game Design
     - Game Development
@@ -14,6 +15,7 @@ tags:
     - OneNote
     - Excel
     - Video
+youtube_url: https://youtu.be/Wtt_a2hbF3o
 ---
 
 In 2020, I have been focusing my energy into game design. In this video, I share my game design toolbox and process and how it literally costs nothing to use the tools themselves.

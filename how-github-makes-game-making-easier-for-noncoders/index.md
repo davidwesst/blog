@@ -11,6 +11,8 @@ tags:
     - Game Design
     - Game Development
     - GitHub
+    - Video
+youtube_url: https://youtu.be/rq0JDWnVt8I
 ---
 
 In this video, DW goes through five things he's been using in Github while designing his latest prototype that require zero coding skills. 

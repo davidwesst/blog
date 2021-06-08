@@ -9,8 +9,10 @@ originalurl: http://blog.davidwesst.com/2015/07/Considerations-When-Migrating-Yo
 tags:
 - hexo
 - javascript
-- blogging
-- self-hosted
+- website
+- blog
+categories:
+- technology
 ---
 
 I'm talking about small-scale, personal blogs or projects.

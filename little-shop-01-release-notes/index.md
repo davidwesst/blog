@@ -12,6 +12,7 @@ tags:
 - devlog
 - little shop of wall street
 - godot
+youtube_url: https://youtu.be/baMlNqGgiV4
 ---
 Finally! The 0.1 beta has arrived for Little Shop of Wall Street!
 

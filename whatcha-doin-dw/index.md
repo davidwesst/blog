@@ -3,6 +3,8 @@ title: "Whatcha doin' DW?"
 tags:
   - twitch
   - html5
+  - website
+  - blog
 categories:
   - projects
 date: "2014-07-29T05:38:56"

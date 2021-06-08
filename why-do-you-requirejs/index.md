@@ -3,6 +3,7 @@ title: Why do you RequireJS?
 tags:
   - code
   - requirejs
+  - javascript
 categories:
   - development
 date: "2014-10-07T17:15:11"

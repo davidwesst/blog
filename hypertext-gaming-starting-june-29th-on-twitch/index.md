@@ -3,9 +3,12 @@ title: Hypertext Gaming - Starting June 29th on Twitch
 tags:
     - twitch
     - html5
+    - video
 categories:
     - projects
+    - video
 date: "2014-06-24T05:47:21"
+youtube_url: https://youtu.be/-nbC9Pvykv8
 ---
 
 <iframe width="560" height="315" src="http://www.davidwesst.com//www.youtube.com/embed/-nbC9Pvykv8" frameborder="0" allowfullscreen></iframe>

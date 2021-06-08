@@ -3,12 +3,14 @@ title: "Gamejam Pro Tips and Lessons Learned"
 date: "2020-01-03T09:00:00"
 categories:
     - development
+    - video
 tags:
     - Game Jam
     - Game Development
     - Game Design
     - GitHub GameOff 2019
     - Video
+youtube_url: https://youtu.be/eJZ75UpQZYw
 ---
 
 Sharing my lessons learned from my GameOff game jam experience and how they will be applied to my game development practice moving forward!

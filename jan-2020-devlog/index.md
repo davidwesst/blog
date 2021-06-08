@@ -8,12 +8,14 @@ categories:
     - development
     - projects
     - video games
+    - video
 tags:
     - Devlog
     - Game Development
     - Video
     - Car Scientist
 description: "A vlog post where I review the progress I've made on the game Car Scientist."
+youtube_url: https://youtu.be/-sKlp_CUhB0
 ---
 
 Did you know that I really try and make video games and not just talk about them? Me neither, but this video will fix all that!

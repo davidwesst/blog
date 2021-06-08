@@ -11,6 +11,7 @@ tags:
     - Community
     - Professional Development
     - Video
+youtube_url: https://youtu.be/rfxfLZTM7Fk
 ---
 Four places to find your new game development and/or design and/or technology community and figure out if it's even good!
 

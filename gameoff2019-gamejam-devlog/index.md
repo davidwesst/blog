@@ -6,12 +6,14 @@ authorId: david_wesst
 originalurl: http://www.davidwesst.com/blog/gameoff2019-gamejam-devlog/
 categories:
     - development
+    - video
 tags:
     - gamedev
     - myfirstgamejam
     - gamejam
     - gameoff-2019
     - devlog
+    - video
 comments: true
 excerpt: "For the past month I have been participating in the GameOff 2019 Gamejam hosted by GitHub over on Itch.io and I've been devlogging about it over on my YouTube channel."
 ---

@@ -3,11 +3,14 @@ title: 'Get to the Point: My Pilot Video'
 tags:
   - Get to the Point
   - Office Mix
+  - video
 categories:
   - projects
   - technology
+  - video
 date: "2014-12-30T22:43:12"
 excerpt: "To close out the year, I'm kicking off a new project that I've wanted to do for a long time now."
+youtube_url: https://youtu.be/M5OQchl9bQA
 ---
 
 To close out the year, I'm kicking off a new project that I've wanted to do for a long time now.
