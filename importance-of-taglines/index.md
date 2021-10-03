@@ -2,7 +2,7 @@
 title: "The Importance of Taglines (to me)"
 date: "2021-10-04T09:00:00-5:00"
 categories:
-- Build
+- build
 tags:
 - taglines
 - communication
