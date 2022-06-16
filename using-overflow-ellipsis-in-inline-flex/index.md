@@ -61,7 +61,7 @@ This isn't the case.
 
 Instead, you get something like this:
 
-{% asset_img broken-result.png "Not quite right" %}
+<!-- MISSING_IMG ![](broken-result.png) -->
 
 We have everything aligned, but no ellipsis. Why?
 
@@ -124,7 +124,7 @@ The working code looks like this:
 
 The `<div>` we introduce is a block element that lives inside of the flex item. Now the `text-overflow` property applies, and all is good!
 
-{% asset_img working-result.png "It Works!" %}
+<!-- MISSING_IMG ![](working-result.png) --> 
 
 ### The Solution in Action
 

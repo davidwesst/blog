@@ -41,7 +41,7 @@ Nothing dramatic should change other than the way you think about going cross-pl
 
 Take your current product or project roadmap, and start considering that you can take your code and port it to the web. It's been done for code much more complicated than your LOB code, so really consider it.
 
-{% asset_img javascript-compilation-flow.png %}
+![Flow diagram going left to right, with root stating 'App/Game not in JavaScript' and ending with the different platforms the JavaScript code can target when using Windows Universal Apps or Cordova](javascript-compilation-flow.png)
 
 Not sure what [Cordova](http://cordova.apache.org/) is? It's an Apache project meant to take HTML5/JavaScript applications and compile the code into native apps. Basically, the next generation of [PhoneGap](http://phonegap.com/).
 

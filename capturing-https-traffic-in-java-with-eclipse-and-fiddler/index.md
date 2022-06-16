@@ -35,13 +35,13 @@ After some internet sleuthing, I put together a solution that I wanted to share 
 4. In the same window select *HTTPS Tab* and make sure sure that the following options **are checked**:
 	+ Capture HTTPS CONNECTS
 	+ Decrypt HTTPS traffic (...from all processes)
-		
-{% asset_img certificate-warning.png %}
+
+<!-- MISSING_IMG certificate-warning.png -->		
 		
 6. Read, and if you're alright with it, install the certificate.
 5. On the HTTPS tab, click the *Export Root Certificate to Desktop* and click OK.
 
-{% asset_img fiddler-options.png %}
+<!-- MISSING_IMG fiddler-options.png -->
 
 ### Generating a Keystore
 
@@ -72,11 +72,11 @@ After some internet sleuthing, I put together a solution that I wanted to share 
 5. Click the *Apply* button
 6. Click the *Run* button to try it out
 
-{% asset_img eclipse-settings.png %}	
+<!-- MISSING_IMG eclipse-settings.png -->
 
 Tada! You're done, and you should now be able to run your code and see the HTTP request and response, completely.
 
-{% asset_img fiddler-success.png %}
+<!-- MISSING_IMG fiddler-success.png -->
 	
 ### Alternative Solution --- Configuring Your Code
 

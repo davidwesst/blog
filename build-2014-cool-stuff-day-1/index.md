@@ -42,7 +42,7 @@ I am a huge fan of transparency when it comes to technology, and so I found this
 
 ### Enterprise Mode
 
-{% asset_img enterprise-minecraft.png %}
+<!-- MISSING_IMG ![][enterprise-minecraft.png] -->
 Old versions of IE lingering around the machines in a big enterprise has been a thorn in my side since I started up with the whole HTML5 thing.
 
 IE has something of an answer. It's called Enterprise Mode and it allows for the IT (not developers) to configure through group policy how IE should render certain URLs, for example to an old HR application that only renders in IE8.

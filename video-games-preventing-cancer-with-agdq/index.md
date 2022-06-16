@@ -15,7 +15,7 @@ It's a fund raising marathon, where for an entire week a group of gamers, known 
 
 Throughout the marathon they accept donations that go towards a charity. This year, they chose the Prevent Cancer Foundation, and 100% of the donations go towards the charity. There isn't anything cut off for administration fees or anything.
 
-{% asset_img AGDQ-miketyson.png "Video Games Preventing Cancer with AGDQ" %}
+![Screenshot of livestream from AGDQ 2015 with speedrunner sinisterwon beating Mike Tyson in Mike Tyson's Punch-Out on the NES with the time at 19:52.21](AGDQ-miketyson.png)
 
 As of this writing, they have collected over $530K in donations from people [watching on Twitch](http://www.twitch.tv/gamesdonequick).
 

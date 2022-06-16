@@ -38,7 +38,7 @@ Photo credit: [jppi](http://www.morguefile.com/creative/jppi) from [morguefile.c
 
 ### Enter Node and npm.
 
-{% asset_img npm-logo.png) %}
+![NPM logo](npm-logo.png)
 
 Instead, I can define my development dependencies with Node, and my setup document would be:
 

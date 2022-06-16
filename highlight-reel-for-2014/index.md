@@ -23,7 +23,8 @@ With that in mind, I wanted to look back on what I consider some of my own highl
 
 ### Inaugural YouTube Video
 
-{% asset_img 1413245786_youtube-128.png %}
+![YouTube red 'play button' with white triangle on it](1413245786_youtube-128.png)
+
 This one is really late in the year, but it was accomplished. Get to the Point is [the first video](http://youtu.be/M5OQchl9bQA) of a series of short videos I plan on talking about code, video games, and hybrid topics in between.
 
 It's something I've wanted to do for quite some time now, and here's hoping I keep it up in 2015.
@@ -38,7 +39,7 @@ The plan is to keep that up. It's a good way for me to play around with ideas an
 
 ### Back into the Speaker Spotlight
 
-{% asset_img imaginet-html5event_small.jpg %}
+![David Wesst on stage beside a slide entitled 'Breakdown of HTML5' with the various logos for the different parts that make up the movement](imaginet-html5event_small.jpg)
 
 That's an old picture of me, but you can imagine that my reintroduction into public speaking looked that awesome.
 

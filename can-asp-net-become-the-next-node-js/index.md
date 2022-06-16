@@ -26,7 +26,7 @@ Using the K Version Manager (KVM) you install it and then manage the version of 
 
 Oh, and [it's open source](https://github.com/aspnet/home). So, just download it and take a look.
 
-{% asset_img githubaspnet.png "Can ASP.NET Become the Next Node.JS?" %}
+![Screenshot of github.com page for aspnet/Home repository](githubaspnet.png)
 
 ## ASP.NET is Tried and Tested
 
