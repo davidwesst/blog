@@ -19,7 +19,7 @@ excerpt: "Watching my YouTube based video game news on IGN News, I came across t
 
 Watching my YouTube based video game news on IGN News, I came across this report that blends the two worlds.
 
-{% youtube 8ZnMI2ABw-I %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ZnMI2ABw-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It's based on [this story reported by Mary Jo Foley](http://www.zdnet.com/article/microsoft-is-building-a-new-browser-as-part-of-its-windows-10-push/).
 
