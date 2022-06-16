@@ -1,17 +1,12 @@
 ---
-layout: post
 title: How to Blog with VSTS (Part 1)
-categories:
-  - development
 date: "2016-10-31T08:43:31"
 tags:
   - visual studio team services
   - vsts
   - alm
   - hexo
-excerpt: I wanted to understand how to use Visual Studio Team Services (VSTS) for a "real" project. Being a noob, I decided to move my blog to VSTS to understand how _any_ project can benefit from ALM practices using VSTS. In part 1 of 5, we get things setup.
-authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/10/How-to-Blog-with-VSTS-Part-1/
+description: I wanted to understand how to use Visual Studio Team Services (VSTS) for a "real" project. Being a noob, I decided to move my blog to VSTS to understand how _any_ project can benefit from ALM practices using VSTS. In part 1 of 5, we get things setup.
 ---
 
 _This is part 1 of 5 of my **How to Blog with VSTS** series. Links to the other parts will be added as they are made available._

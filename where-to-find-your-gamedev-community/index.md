@@ -1,9 +1,6 @@
 ---
 title: "Where to Find Your Gamedev Community"
 date: "2020-01-18T00:09:00"
-category:
-    - development
-    - video
 tags:
     - Game Development
     - Gamedev

@@ -4,7 +4,7 @@ tags:
     - internet explorer
     - html5
 date: "2014-04-03T00:43:43"
-excerpt: "Tired of waiting to hear from Microsoft on whether or not IE will support the latest HTML5 feature?"
+description: "Tired of waiting to hear from Microsoft on whether or not IE will support the latest HTML5 feature?"
 social_image: status_modern_ie_screenshot-2.png
 ---
 

@@ -1,16 +1,11 @@
 ---
-layout: post
 title: How to Fix node-gyp Error on Windows
-categories:
-  - development 
 date: "2016-09-26T14:51:56"
 tags:
   - NodeJS
   - JavaScript
   - node-gyp
-excerpt: Whenever I get a new machine, I pull down a new project using the `npm install command and get an error related to python and node-gyp. This post will remember the fix for this problem that I always forget.
-authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/09/How-to-Fix-node-gyp-Errors-on-Windows/
+description: Whenever I get a new machine, I pull down a new project using the `npm install command and get an error related to python and node-gyp. This post will remember the fix for this problem that I always forget.
 ---
 
 I hit this problem once or twice a year and always seem to forget how easy it is to fix the problem. This blog post will ensure that not only I remember, but the entire Internet will remember the solution I use.

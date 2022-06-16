@@ -3,10 +3,8 @@ title: Microsoft IE MVP - Year Four
 tags:
 - microsoft mvp
 - mvp
-categories:
-- inner monologue
 date: "2014-04-05T05:43:17"
-excerpt: "That's right everyone, I've been awarded the the Microsoft MVP award in the area of Internet Explorer again for 2014."
+description: "That's right everyone, I've been awarded the the Microsoft MVP award in the area of Internet Explorer again for 2014."
 ---
 
 [1]: MVP_Horizontal_FullColor.png

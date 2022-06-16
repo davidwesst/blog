@@ -5,11 +5,9 @@ tags:
   - css3
   - html
   - stylesheets
-categories:
-  - development
 social_image: header.png
 date: "2016-03-07T09:04:00"
-excerpt: "I've been on this CSS kick for the past while, and I had forgotten how much CSS can do now. More specifically how things have changed when it comes to measuring height and width."
+description: "I've been on this CSS kick for the past while, and I had forgotten how much CSS can do now. More specifically how things have changed when it comes to measuring height and width."
 ---
 
 [1]: header.png

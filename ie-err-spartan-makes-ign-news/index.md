@@ -5,10 +5,8 @@ tags:
 - Internet Explorer
 - Windows 10
 - Spartan
-categories:
-- technology
 social_image: Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg
-excerpt: "Watching my YouTube based video game news on IGN News, I came across this report that blends the two worlds."
+description: "Watching my YouTube based video game news on IGN News, I came across this report that blends the two worlds."
 ---
 
 [1]: Logo-of-the-New-Microsoft-Browser-Spartan---Imgur.jpg

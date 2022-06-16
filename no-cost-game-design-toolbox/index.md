@@ -1,12 +1,6 @@
 ---
 title: "No Cost Game Design Toolbox"
 date: "2017-08-15T12:35:00"
-layout: post
-authorId: david_wesst
-originalurl: http://www.davidwesst.com/blog/no-cost-game-design-toolbox/
-categories:
-    - development
-    - video games
 tags:
     - Game Design
     - Game Development

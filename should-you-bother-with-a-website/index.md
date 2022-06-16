@@ -1,15 +1,11 @@
 ---
-
 title: "Should you bother with a Website?"
 date: "2021-06-07T12:00:00"
-categories:
-- technology
 tags:
 - blog
 - website
 social_image: "./should-you-bother-with-a-website.png"
-excerpt: It's 2021. Websites are sooooooo....2006. With social media dominating the way people consume content these days, what is the point of having a website today? I asked myself this question as I put the effort into reviving my dead website and I stand by the idea that having a website for yourself, project, or business is a need rather than a nice-to-have.
-
+description: It's 2021. Websites are sooooooo....2006. With social media dominating the way people consume content these days, what is the point of having a website today? I asked myself this question as I put the effort into reviving my dead website and I stand by the idea that having a website for yourself, project, or business is a need rather than a nice-to-have.
 ---
 
 It's 2021. Websites are sooooooo....2006. With social media dominating the way people consume content these days, what is the point of having a website today? I asked myself this question as I put the effort into reviving my dead website and I stand by the idea that having a website for yourself, project, or business is still relevant and necessary in the age of social media.

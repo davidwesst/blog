@@ -1,13 +1,6 @@
 ---
 title: "Jan 2020 Devlog"
 date: "2020-02-04T10:03:24"
-layout: post
-authorId: david_wesst
-originalurl: http://www.davidwesst.com/blog/jan-2020-devlog
-categories:
-    - development
-    - projects
-    - video games
 tags:
     - Devlog
     - Game Development

@@ -5,11 +5,9 @@ tags:
   - Windows 10
   - Edge
   - Conference
-categories:
-  - technology
 social_image: edgeconference2015-markup-1.png
 date: "2015-05-04T05:22:00"
-excerpt: "2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game."
+description: "2015 brought introduced a lot of new stuff in the Microsoft space, including how Windows 10 is changing up the web application game."
 ---
 [1]: edgeconference2015-markup-1.png
 

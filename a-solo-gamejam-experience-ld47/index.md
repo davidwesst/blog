@@ -1,12 +1,6 @@
 ---
 title: "A Solo Gamejam Experience | A Ludum Dare 47 Story"
 date: "2020-10-23T09:00:00"
-layout: post
-authorId: david_wesst
-originalurl: http://www.davidwesst.com/blog/a-solo-gamejam-experience/
-categories:
-    - projects
-    - video games
 tags:
     - ludum dare
     - game development

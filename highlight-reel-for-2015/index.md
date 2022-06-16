@@ -1,17 +1,10 @@
 ---
-layout: post
 title: Highlight Reel for 2015
-categories:
-  - inner monologue
-excerpt: David Wesst takes a moment to look back at his personal and professional development throughout 2015.
-comments: true
-authorId: david_wesst
-originalurl: 'http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/'
+description: David Wesst takes a moment to look back at his personal and professional development throughout 2015.
 date: "2016-01-01T13:31:57"
 ---
 
-
-{% img http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png %}
+<!-- MISSING_IMG http://blog.davidwesst.com/2016/01/Highlight-Reel-for-2015/thinker.png -->
 
 I just finished reading my [post about 2014](http://blog.davidwesst.com/2015/01/Highlight-Reel-for-2014/). If I were to compare my plans for 2015 to the result of the year-long sprint, I'd have to say that it appears that we are either way off track, or that the requirements have changed quite a bit.
 

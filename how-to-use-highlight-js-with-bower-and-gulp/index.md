@@ -1,17 +1,12 @@
 ---
-layout: post
 title: How to Use Highlight.Js with Bower and Gulp
 date: "2016-08-29T10:07:11"
-categories:
-    - development
 tags:
   - gulp
   - bower
   - highlight.js
   - javascript
-excerpt: One of the best libraries I've seen for syntax highlighting on the web is highlight.js, IMHO. The catch to using the library is that it takes a bit more effort to setup than just adding a script tag and being done with it. In this post, I'll walk you through the steps I took to get this up and running with Bower and Gulp.
-authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/08/How-to-Use-HighlightJs-with-Bower-and-Gulp/ 
+description: One of the best libraries I've seen for syntax highlighting on the web is highlight.js, IMHO. The catch to using the library is that it takes a bit more effort to setup than just adding a script tag and being done with it. In this post, I'll walk you through the steps I took to get this up and running with Bower and Gulp.
 ---
 
 One of the challenges I faced when getting my new blog theme up and running was getting [highlight.js](https://highlightjs.org) working as I wanted it to. The library has support for a riduculous number of languages, and provides theming capabilities, so it was the clear choice when it came to syntax highlighting for the web. The challenge is that tt's not just adding simple script tag and you're done with it. They seem to expect you to know what you're doing when consuming the library. 

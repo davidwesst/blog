@@ -1,12 +1,6 @@
 ---
-layout: post
 title: "Conference recap extravaganza!"
 date: "2015-06-11T20:09:05"
-authorId: david_wesst
-originalurl: http://www.davidwesst.com/conference-recap-extravaganza/
-categories:
-- development
-comments: true
 tags:
 - conference
 - prdc

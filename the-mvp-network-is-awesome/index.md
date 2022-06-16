@@ -3,11 +3,8 @@ title: The MVP Network is Awesome
 tags:
   - thoughts
   - mvp
-categories:
-- inner monologue
-- development
 date: "2014-09-23T17:29:54"
-excerpt: "Over the weekend I hit a Windows Azure issue in my side project that totally blocked me. Yesterday, I reached out on Twitter, and the Canadian MVP network picked it up and helped me solve it in 30 minutes."
+description: "Over the weekend I hit a Windows Azure issue in my side project that totally blocked me. Yesterday, I reached out on Twitter, and the Canadian MVP network picked it up and helped me solve it in 30 minutes."
 ---
 
 [1]: AzureTwitter_2014-09-22.png

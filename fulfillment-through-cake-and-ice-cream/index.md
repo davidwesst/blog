@@ -1,8 +1,6 @@
 ---
 title: "Personal and Professional Fulfillment through Cake and Ice Cream"
 date: "2022-01-12T14:41:00-06:00"
-categories:
-- introspection
 tags:
 - accomplishment
 - fulfillment

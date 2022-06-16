@@ -1,16 +1,9 @@
 ---
-layout: post
 title: "Code - The Visual Studio for Everybody"
-categories:
-- development
-- technology
 tags:
 - vscode
 - visual studio code
-comments: true
-authorId: david_wesst
 date: "2015-12-07T12:13:06"
-originalurl: http://blog.davidwesst.com/2015/12/Code-The-Visual-Studio-for-Everybody/
 ---
 
 Last week I delivered three presentations: one at the [Winnipeg .NET User Group](http://winnipegdotnet.org/) and the other two at [Winnipeg Code Camp](http://winnipegcodecamp.com/). Being as awesome as we are, the user group presentation was recorded and has been published on the YouTube page.

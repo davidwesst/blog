@@ -8,9 +8,7 @@ tags:
     - sonar
     - accessibility
     - devops
-excerpt: "Meet Nellie the Narwhal, the official mascot for Sonar, the linting tool for the web. Nellie represents a tool that is long-overdue. It provides any web application the ability to verify they are meeting a high level of quality when it comes to their web applications, and not miss any common mistakes."
-layout: post
-authorId: david_wesst
+description: "Meet Nellie the Narwhal, the official mascot for Sonar, the linting tool for the web. Nellie represents a tool that is long-overdue. It provides any web application the ability to verify they are meeting a high level of quality when it comes to their web applications, and not miss any common mistakes."
 ---
 
 [1]: https://summit.microsoftedge.com/

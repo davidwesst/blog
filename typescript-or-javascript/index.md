@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Picking between TypeScript and JavaScript"
 tags:
   - javascript
   - typescript
-categories:
-  - development
-authorId: david_wesst
 date: "2018-03-15T11:40:00"
 ---
 

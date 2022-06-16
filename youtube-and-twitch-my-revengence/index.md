@@ -1,16 +1,12 @@
 ---
 title: "YouTube and Twitch: My Revengence"
 date: "2021-07-05T15:53"
-categories:
-- video
-- livestream
-- video games
 tags:
 - youtube
 - twitch
 - video
 - livestream
-excerpt: "I miss making video content, but what value does YouTube and Twitch content give you?"
+description: "I miss making video content, but what value does YouTube and Twitch content give you?"
 social_image: "./caspar-camille-rubin-DrL-cwqD6tM-unsplash_cropped.jpg"
 ---
 

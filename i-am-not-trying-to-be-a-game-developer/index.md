@@ -1,16 +1,13 @@
 ---
 title: "I am NOT trying to be a Game Developer"
 date: "2021-07-22T12:00:00"
-categories:
-- video
-- inner monologue
 tags:
 - gamedev
 - game development
 - out the door
 video_url: https://youtu.be/_Vy_ewJ9C0Q
 social_image: "./2021-04_thumbnail.png"
-excerpt: "It's time for me to come clean about something: I am not trying to become a game developer. BUT...I am still trying to make video games."
+description: "It's time for me to come clean about something: I am not trying to become a game developer. BUT...I am still trying to make video games."
 ---
 Hey friendos, it's me DW. 
 

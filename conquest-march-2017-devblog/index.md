@@ -1,18 +1,13 @@
 ---
-layout: post
 title: "Introducing My Game Project - March 2017 Devblog"
 tags:
   - conquest
   - typescript
   - vsts
   - phaser
-categories:
-  - development
 date: "2017-04-03T06:00:00"
 updated: "2017-04-03T06:00:00"
-originalurl: "https://blog.davidwesst.com/2017/04/Conquest-March-2017-Devblog/"
-authorId: david_wesst
-excerpt: This is the first of monthly status update posts on my video game project I call Conquest.
+description: This is the first of monthly status update posts on my video game project I call Conquest.
 ---
 
 I've wanted to make a video game since I was very young. It got me into programming during my university career, and is something of a passion of mine now that I'm older and more of a seasoned developer.

@@ -4,10 +4,8 @@ tags:
   - fun
   - YouTube
   - Microsoft
-categories:
-- technology
 date: "2015-04-08T13:42:44"
-excerpt: "In recent days, a specific YouTube channel has my caught my attention. It's called Lazy Game Reviews, and last night I came across a great playlist of only four episoded called: LGR Tech Tales where LGR, the host, goes through a specific event in computer history."
+description: "In recent days, a specific YouTube channel has my caught my attention. It's called Lazy Game Reviews, and last night I came across a great playlist of only four episoded called: LGR Tech Tales where LGR, the host, goes through a specific event in computer history."
 ---
 
 [1]: Windows_NT_logo_svg.png

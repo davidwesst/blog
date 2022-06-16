@@ -3,11 +3,8 @@ title: Nintendo Builds Rich HTML5 Experiences
 tags:
   - games
   - html5
-categories:
-  - video games
-  - technology
 date: "2014-10-02T15:45:21"
-excerpt: "I need to throw a shout out to Nintendo."
+description: "I need to throw a shout out to Nintendo."
 ---
 [1]: playnintendo-kirby.
 [2]: playnintendo-mariopartystarter.PNG

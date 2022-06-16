@@ -1,15 +1,13 @@
 ---
 title: "I Can Teach Your Dog Quantum Physics"
 date: "2021-06-28T12:00:00"
-categories:
-- finding inspiration
 tags:
 - quantum computing
 - quantum physics
 - finding inspiration
 - book
 - Mark Russinovich
-excerpt: "It's true! I read a book about it and everything. Let me breakdown the highlights of this book that does a pretty good job of explaining the physics behind quantum computing."
+description: "It's true! I read a book about it and everything. Let me breakdown the highlights of this book that does a pretty good job of explaining the physics behind quantum computing."
 social_image: "./physics_dog_resized.jpg"
 ---
 

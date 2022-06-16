@@ -7,7 +7,7 @@ tags:
   - asp.net
 social_image: aspnetthenewnodejs.png
 date: "2014-11-14T17:49:49"
-excerpt: "I realize how crazy that sounds, but after yesterday's keynote from Microsoft at the VS Connect event in New York, I'm wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up."
+description: "I realize how crazy that sounds, but after yesterday's keynote from Microsoft at the VS Connect event in New York, I'm wondering if my goal to find a true cross-platform technology is sitting back at base camp just...leveling up."
 ---
 
 [1]: aspnetthenewnodejs.png

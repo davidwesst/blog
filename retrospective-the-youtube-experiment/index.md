@@ -4,11 +4,8 @@ tags:
   - Script Unscripted
   - YouTube
   - retrospective
-categories:
-  - video
-  - projects
 date: "2015-02-05T18:06:47"
-excerpt: "At the beginning of the month I announced I'd be doing a web series on YouTube called Script Unscripted. "
+description: "At the beginning of the month I announced I'd be doing a web series on YouTube called Script Unscripted. "
 ---
 
 [1]: YouTube-logo-full_color.png

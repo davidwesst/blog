@@ -1,8 +1,7 @@
 ---
 title: "Advent of Code 2021: Day 1"
 date: "2021-12-01T23:59:00-06:00"
-categories:
-- build cool stuff
+ cool stuff
 tags:
 - advent of code
 - javascript

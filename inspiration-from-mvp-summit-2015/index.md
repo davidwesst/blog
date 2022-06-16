@@ -1,17 +1,11 @@
 ---
-layout: post
 title:  Inspiration From MVP Summit 2015
 date: "2015-11-20T09:09:44"
-categories:
-- conferences
 tags:
 - microsoft mvp
 - mvp
 - mvp summit
 - internet explorer
-comments: true
-authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2015/11/Inspiration-from-MVP-Summit-2015/
 ---
 
 ![me-mvp2015.jpg][1]

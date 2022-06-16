@@ -3,8 +3,6 @@ title: Hypertext Gaming - Starting June 29th on Twitch
 tags:
     - twitch
     - html5
-categories:
-    - projects
 date: "2014-06-24T05:47:21"
 ---
 

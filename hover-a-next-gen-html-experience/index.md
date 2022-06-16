@@ -3,8 +3,6 @@ title: 'Hover! A Next-Gen HTML Experience'
 tags:
     - internet explorer
     - html5
-categories:
-    - technology
 social_image: Hover_Title.png 
 date: "2013-10-02T15:05:00"
 ---

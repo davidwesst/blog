@@ -1,18 +1,13 @@
 ---
 title: "From Travis CI to GitHub Actions (and GitHub Pages)"
 date: "2020-11-10T18:36:00"
-layout: post
-authorId: david_wesst
-originalurl: https://www.davidwesst.com/blog/from-travis-ci-to-github-actions
-categories:
-    - development
 tags:
     - github actions
     - github workflow
     - travis ci
     - continuous integration
     - continuous deployment
-excerpt: "We recently migrated the continuous integration and deployment workflow for the Western Devs website from Travis CI to GitHub Actions. These are the steps I followed to get it done."
+description: "We recently migrated the continuous integration and deployment workflow for the Western Devs website from Travis CI to GitHub Actions. These are the steps I followed to get it done."
 ---
 
 [1]: https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing

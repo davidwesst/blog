@@ -2,12 +2,8 @@
 title: The Difference between Apps and Games
 tags:
 - video games
-categories:
-- inner monologue
-- video games
-- development
 date: "2013-07-30T04:27:00"
-excerpt: "No, really. Are they actually that different?"
+description: "No, really. Are they actually that different?"
 ---
 
 [1]: blog_appsvsgames.png

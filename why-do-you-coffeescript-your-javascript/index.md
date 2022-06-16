@@ -4,10 +4,8 @@ tags:
   - code
   - javascript
   - coffeescript
-categories:
-  - development
 date: "2014-09-30T18:26:07"
-excerpt: "I was asked this the other day: Why don't you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn't require compiliation?"
+description: "I was asked this the other day: Why don't you just write your code in JavaScript directly? As in, why would you use a langugage that abstracts JavaScript, which  doesn't require compiliation?"
 ---
 
 [1]: coffeescript-logo.png

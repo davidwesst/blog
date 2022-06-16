@@ -3,10 +3,8 @@ title: Why do I JavaScript?
 tags:
   - code
   - javascript
-categories:
-  - development
 date: "2014-09-25T20:36:55"
-excerpt: "The answer is simple: I don't want to limit about my platform options on day one."
+description: "The answer is simple: I don't want to limit about my platform options on day one."
 ---
 
 The answer is simple: I don't want to limit about my platform options on day one.

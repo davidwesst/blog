@@ -3,11 +3,9 @@ title: IE on Reddit - Highlight Reel
 tags:
   - ie
   - internet explorer
-categories:
-  - technology
 social_image: bvbik2tccaawex1.jpg
 date: "2014-08-15T06:43:19"
-excerpt: "To me, this is IamA (I am a something ask me anything) is historic with web platforms."
+description: "To me, this is IamA (I am a something ask me anything) is historic with web platforms."
 ---
 
 To me, this is IamA (I am a _something_ ask me anything) is historic with web platforms.

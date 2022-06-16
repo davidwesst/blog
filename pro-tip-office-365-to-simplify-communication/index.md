@@ -3,10 +3,8 @@ title: 'Pro Tip: Office 365 to Simplify Communication'
 tags:
 - office 365
 - microsoft 365
-categories:
-- technology
 date: "2013-11-05T18:59:00"
-excerpt: "I believe the key to being professional is communication."
+description: "I believe the key to being professional is communication."
 ---
 [1]: 110513_1851_ProTipOffic1.png
 [2]: 110513_1851_ProTipOffic3.png

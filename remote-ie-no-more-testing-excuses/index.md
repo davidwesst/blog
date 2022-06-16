@@ -3,10 +3,8 @@ title: Remote IE - No More Testing Excuses
 tags:
 - internet explorer
 - ie
-categories:
-- development
 date: "2014-11-03T18:21:18"
-excerpt: "Today the IE team released Remote IE. This is awesome. Let me explain."
+description: "Today the IE team released Remote IE. This is awesome. Let me explain."
 ---
 
 [1]: WP_20141103_002-1-.jpg

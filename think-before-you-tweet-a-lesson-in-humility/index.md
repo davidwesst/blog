@@ -5,10 +5,8 @@ tags:
   - npm
   - chocolatey
   - nuget
-categories:
-- inner monologue
 date: "2014-11-17T17:40:10"
-excerpt: "Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts."
+description: "Over the weekend I tripped over brain and sounded like a goof on Twitter while trying to engage a number of technology experts."
 ---
 
 [1]: chocolateytwitter.png

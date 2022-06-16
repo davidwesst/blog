@@ -1,17 +1,13 @@
 ---
 title: IstanbulJS Code Coverage Reports in VSTS
-category:
-    - development
 tags:
     - javascript
     - visual studio team services
     - istanbuljs
     - nyc
     - testing
-excerpt: "Here's another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports."
-layout: post
+description: "Here's another dev thing I use: IstanbulJS in Visual Studio Team Services (VSTS) builds and display the test reports as part of the build reports."
 date: "2017-08-03T12:10:00"
-authorId: david_wesst
 ---
 
 [1]: https://istanbul.js.org/

@@ -3,10 +3,8 @@ title: What is Bower?
 tags:
   - code
   - bower
-categories:
-- development
 date: "2014-10-16T18:03:40"
-excerpt: "I mentioned Bower last time when talking about npm."
+description: "I mentioned Bower last time when talking about npm."
 ---
 
 [1]: bower-logo.png

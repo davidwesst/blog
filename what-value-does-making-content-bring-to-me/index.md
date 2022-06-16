@@ -1,15 +1,13 @@
 ---
 title: "What Value Does Making Content Bring to Me? (not a typo)"
 date: "2021-06-14T12:00:00"
-categories:
-- inner monologue
 tags:
 - blog
 - defining value
 - content creation
 - self-retrospective
 - validation
-excerpt: "I realize it's a selfish question, but if the post isn't valuable to me then why would it be valuable to you?"
+description: "I realize it's a selfish question, but if the post isn't valuable to me then why would it be valuable to you?"
 social_image: './rob-schreckhise-8zdEgWg5JAA-unsplash_altered.jpg'
 ---
 

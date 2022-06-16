@@ -1,20 +1,15 @@
 ---
-layout: post
 title: Looking Forward into 2016
-categories:
-  - inner monologue
 tags:
   - blog
   - game development
 date: "2016-01-01T13:39:12"
-excerpt: DW documents and shares his planning session for 2016 based on what he's learned from 2015.
-authorId: david_wesst
-originalurl: http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/
+description: DW documents and shares his planning session for 2016 based on what he's learned from 2015.
 ---
 
-{% img http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/sunrise.png %}
+<!-- MISSING_IMG ![](http://blog.davidwesst.com/2016/01/Looking-Forward-into-2016/sunrise.png) -->
 
-This is the spiritual sequel to my previous {% post_link 2016-01-01-Highlight-Reel-for-2015 "Highlight Reel for 2015" %} post. You don't need to read it previously, but it might provide some context on some of these ideas. 
+This is the spiritual sequel to my previous post. You don't need to read it, but it might provide some context on some of these ideas. 
 
 I decided that with everything still in flux and forever changing, it's easier for me to list out the interests and ideas, rather than concrete requirements for individual projects. Not sure how they'll pan out exactly, but here's the "what, why, and how" for the plan for 2016.
 

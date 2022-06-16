@@ -3,11 +3,8 @@ title: NetFront-- the Unknown Browser Everyone Owns
 tags:
   - games
   - NetFront
-categories:
-  - technology
-  - video games
 date: "2015-01-14T18:55:55"
-excerpt: "Netfront is a web browser that I hadn't heard of before, but I have installed on six of my devices."
+description: "Netfront is a web browser that I hadn't heard of before, but I have installed on six of my devices."
 ---
 
 [1]: PSP_Browser.jpg

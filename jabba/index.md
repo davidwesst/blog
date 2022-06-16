@@ -1,16 +1,12 @@
 ---
 title: Jabba, the Java Version Manager for Everyone
 date: "2017-08-16T09:35:00"
-category:
-    - java
 tags:
     - java
     - powershell
     - version manager
     - jabba
-excerpt: "Here's another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows."
-layout: post
-authorId: david_wesst
+description: "Here's another dev thing I use: Jabba, a cross-platform Java version manager that works for Windows."
 ---
 
 [1]: https://davidwesst.blob.core.windows.net/blog/jabba/jabba-example.gif "Jabba in Action in a Powershell terminal"

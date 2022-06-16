@@ -1,12 +1,6 @@
 ---
 title: "How Github Makes Game Making Easier for Noncoders"
 date: "2020-02-19T09:48:36"
-layout: post
-authorId: david_wesst
-originalurl: http://www.davidwesst.com/blog/how-github-makes-game-making-easier-for-noncoders/
-categories:
-    - development
-    - video
 tags:
     - Game Design
     - Game Development

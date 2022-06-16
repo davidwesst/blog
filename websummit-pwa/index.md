@@ -8,9 +8,7 @@ tags:
     - service-workers
     - progressive-web-apps
     - javascript
-excerpt: "One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that could be interesting one day, but left the conference convinced that this will change the way we think of the web."
-layout: post
-authorId: david_wesst
+description: "One of the core items highlighted by the Microsoft Edge team, along with many others who were just web professionals, was the importance of Progressive Web Apps (PWAs). I started out thinking they were something that could be interesting one day, but left the conference convinced that this will change the way we think of the web."
 ---
 
 [1]: https://summit.microsoftedge.com/

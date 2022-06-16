@@ -3,10 +3,8 @@ title: The Heisenberg Second Screen Experience in HTML
 tags:
 - html5
 - breaking bad
-categories:
-- technology
 date: "2013-09-27T03:37:00"
-excerpt: "Breaking Bad is coming to an end."
+description: "Breaking Bad is coming to an end."
 ---
 
 [1]: breakingbadhtml5.png

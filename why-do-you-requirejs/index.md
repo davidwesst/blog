@@ -3,10 +3,8 @@ title: Why do you RequireJS?
 tags:
   - code
   - requirejs
-categories:
-  - development
 date: "2014-10-07T17:15:11"
-excerpt: "Get it? RequireJS is a dependency management framework I use in JavaScript to manage...well my dependencies. But, the title is a play on words cause...of course you require JS...cause...JavaScript is required to..."
+description: "Get it? RequireJS is a dependency management framework I use in JavaScript to manage...well my dependencies. But, the title is a play on words cause...of course you require JS...cause...JavaScript is required to..."
 ---
 
 [1]: requirejs-logo.PNG

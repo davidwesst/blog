@@ -3,12 +3,9 @@ title: HTML Gaming for Core Gamers
 tags:
     - html5
     - video games
-categories:
-    - technology
-    - video games
 social_image: ieatpax.jpg
 date: "2013-09-07T21:13:00"
-excerpt: "This is part of a blog series discussing my afterthought on attending PAX Dev and Prime 2013 in Seattle."
+description: "This is part of a blog series discussing my afterthought on attending PAX Dev and Prime 2013 in Seattle."
 ---
 
 [1]: ieatpax.jpg

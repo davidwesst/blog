@@ -3,10 +3,8 @@ title: Stop Hating IE and Be a Professional (Part 3)
 tags:
 - ie
 - internet explorer
-categories:
-- technology
 date: "2013-01-18T07:17:00"
-excerpt: "This post is part three of three. Part 1 (Be a Realist) and Part 2 (Be a Strategist) are already published and available."
+description: "This post is part three of three. Part 1 (Be a Realist) and Part 2 (Be a Strategist) are already published and available."
 ---
 
 [1]: ie10_logo.png

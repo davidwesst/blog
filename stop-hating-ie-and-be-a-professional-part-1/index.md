@@ -3,10 +3,8 @@ title: Stop Hating IE and Be a Professional (Part 1)
 tags:
 - ie
 - internet explorer
-categories:
-- technology
 date: "2013-01-16T07:15:00"
-excerpt: "This post is part one of three. Part 2 (Be a Strategist) and Part 3 (Be a Leader) are available as well."
+description: "This post is part one of three. Part 2 (Be a Strategist) and Part 3 (Be a Leader) are available as well."
 ---
 
 This post is part one of three. [Part 2 (Be a Strategist)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-2) and [Part 3 (Be a Leader)](http://www.davidwesst.com/stop-hating-ie-and-be-a-professional-part-3) are available as well.

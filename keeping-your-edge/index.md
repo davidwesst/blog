@@ -1,14 +1,9 @@
 ---
-layout: post
 title: Keeping Your Edge on an Extended Break
 date: "2016-07-18T10:30:33"
-categories:
-  - inner monologue
 tags:
   - parenting
-excerpt: A few quick tips on how I kept up-to-date in the professional world while taking a four month hiatus for parental leave _without_ giving up time with my daughter.
-authorId: david_wesst
-originalurl: https://blog.davidwesst.com/2016/07/Keeping-Your-Edge-on-an-Extended-Break/
+description: A few quick tips on how I kept up-to-date in the professional world while taking a four month hiatus for parental leave _without_ giving up time with my daughter.
 ---
 
 I recently came off of four months of parental leave where I had a fantastic time bonding with my new daughter. Although four months doesn't seem like much of a hiatus, I learned very quickly that being a full time parent doesn't leave much time to keeping my professional edge.

@@ -4,11 +4,8 @@ tags:
   - azure websites
   - ZVGQ
   - Windows Azure
-categories:
-  - development
-  - projects
 date: "2015-04-28T05:15:58"
-excerpt: "I've been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer."
+description: "I've been working on a side project for roughly 5 years now, and this past week I managed to finally launch it. Zany Video Game Quotes, is a site worked on acquired by a very close friend of mine. He worked on the content and enlisted me as the lead developer."
 ---
 
 [1]: new-zvgq.png
