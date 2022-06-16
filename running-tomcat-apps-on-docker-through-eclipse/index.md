@@ -48,7 +48,7 @@ The first script I created just packages things up, makes sure boot2docker is ru
 
 Being that I run the script from the project root, it looks like this:
 
-{% codeblock lang:bash %}
+```base
 #!/bin/bash
 
 # package the WAR file
@@ -59,14 +59,14 @@ boot2docker up
 
 # Run the application
 docker run --rm -p 8080:8080 -v //./target/mywebapp:/usr/local/tomcat/webapps/mywebapp tomcat:6.0
-{% endcodeblock %}
+```
 
 ### The Stop Script
 Thanks to the power of Bingoogle, I was able to find [this](https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers).
 
-{% codeblock lang:bash %}
+```bash
 docker stop $(docker ps -a -q)
-{% endcodeblock %}
+```
 
 And there are my scripts to start and stop my application. The main reason for creating these is to make sure that anyone pulling down the solution can be productive. Even those that like staying inside of Eclipse all the time.
 
@@ -88,17 +88,17 @@ That being said, we could also customize our docker image to include files right
 
 Here's an example, but you can get the full scoop on dockerfiles [here](https://docs.docker.com/articles/dockerfile_best-practices/):
 
-{% codeblock lang:bash %}
+```bash
 FROM tomcat:6.0
 MAINTAINER David Wesst <questions@davidwesst.com>
 
 # add our WAR files
 ADD target/\*.war /usr/local/tomcat/webapps/
-{% endcodeblock %}
+```
 
 Then we need to update our ```start-docker.sh``` file from above to build the new image so we can run it.
 
-{% codeblock lang:bash %}
+```bash
 #!/bin/bash
 
 # package the WAR file
@@ -112,7 +112,7 @@ docker build -t davidwesst/tomcatsample:dev .
 
 # Run the application
 docker run --rm -p 8080:8080 umanitoba/tomcatsample:dev
-{% endcodeblock %}
+```
 
 ### The Point
 This is a pretty straightforward example on how to use docker, and how to tie it into any processes or IDEs that you may have. I know that [Eclipse Mars has functionality for docker](http://www.eclipse.org/community/eclipse_newsletter/2015/june/article3.php), but sometimes we don't get to use the shiny new toy and need to stick with the old realiable ones. This solution works with Eclipse Luna, and below from what I can gather, so people that are stuck using older IDEs can still enjoy Docker.

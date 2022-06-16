@@ -56,7 +56,7 @@ If you haven't already seen it, you have intellisense while you're editing your 
 
 We define, what I call a subtask, just like we do a regular task, except the JSON schema is a little different. After adding a task for ```getSword``` and , my tasks file now looks like:
 
-{% codeblock lang:javascript %}
+```javascript
 {
 	"version": "0.1.0",
 	"command": "gradle",
@@ -70,7 +70,7 @@ We define, what I call a subtask, just like we do a regular task, except the JSO
 		}
 	]	
 }
-{% endcodeblock %}
+```
 
 Great, but so far we haven't done anything actually useful. Let's apply what we've learned here and from [my previous post](http://blog.davidwesst.com/2015/10/Custom-Tasks-for-Java-in-Visual-Studio-Code/) and get a useful command setup in Code.
 
@@ -81,7 +81,7 @@ Just like we did with the ```javac``` command, we need to add a problem matcher 
 
 Our tasks file now looks like:
 
-{% codeblock lang:javascript %}
+```javascript
 {
 	"version": "0.1.0",
 	"command": "gradle",
@@ -114,7 +114,7 @@ Our tasks file now looks like:
 		}
 	]	
 }
-{% endcodeblock %}
+```
 
 And if you run it, you should get an error in our source code. Press ```Ctrl + Shift + M``` to see the warning about our static method, and click it to go to the error.
 

@@ -39,7 +39,7 @@ To see if we have any errors, we want to run our Java compiler on our code to ge
 1. First, clear out the other tasks in the file. We only want the one we're going to use which is our javac command.
 2. Add the task to run the Java compiler
 
-{% codeblock lang:javascript %}
+```javascript
 {
 	"version": "0.1.0",
 	"command": "javac",
@@ -47,7 +47,7 @@ To see if we have any errors, we want to run our Java compiler on our code to ge
 	"isShellCommand": true,
 	"args": ["-d","${workspaceRoot}\\build\\classes","${workspaceRoot}\\src\\main\\java\\*.java"]
 }
-{% endcodeblock %}
+```
 
 3. Now, we can run our command by hitting ```Ctrl + Shift + P``` and typing _Run Task_ should show us our new Java task.
 
@@ -64,7 +64,7 @@ Now that we have a task running, we need to tell Code how to process the output.
 
 Here's what my task looks like now:
 
-{% codeblock lang:javascript %}
+```javascript
 {
 	"version": "0.1.0",
 	"command": "javac",
@@ -85,7 +85,7 @@ Here's what my task looks like now:
 		]
 	}
 }
-{% endcodeblock %}
+```
 
 If you'd like the full scoop on how this works, you can check out the explanation on the Code documentation on [writing problem matchers](https://code.visualstudio.com/Docs/editor/tasks#_defining-a-problem-matcher) but basically each of the variables listed beneath the ```regexp``` represent a part of the VS code message that should display.
 
