@@ -2,7 +2,7 @@ build: clean
 	go build
 
 clean:
-	rm -f ./validator
+	rm -f ./rssmaker ./*.xml
 
 install:
 	go install
@@ -11,4 +11,4 @@ uninstall:
 	go clean -i
 
 run:
-	go run validator.go
+	go run rssmaker.go
