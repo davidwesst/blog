@@ -1,8 +1,10 @@
 name: Publish
 on:
   push:
+    paths:
+    - 'posts/**'
     branches:
-    - rc/vNext
+    - main
 
 jobs:
   publish_to_storage:
@@ -16,15 +18,3 @@ jobs:
     - name: Upload Posts
       run: |
         . ./.tools/az/upload-posts.sh "${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
-      
-  # publish_to_website:
-  #   name: Publish on davidwesst.com
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - name: Trigger Website Publish
-  #     uses: peter-evans/repository-dispatch@v1
-  #     with:
-  #       repository: davidwesst/website
-  #       token: ${{ secrets.WEBSITE_ACCESS_TOKEN }}
-  #       event-type: blog-update
-  #       client-payload: '{ "sha": "${{ github.sha }}" }'
