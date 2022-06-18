@@ -30,7 +30,8 @@
 			"extensions": [
 				"golang.Go",
 				"GitHub.vscode-pull-request-github",
-				"ms-vscode.makefile-tools"
+				"ms-vscode.makefile-tools",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	},
@@ -44,9 +45,8 @@
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {
+		"azure-cli": "latest",
 		"git-lfs": "latest",
-		"github-cli": "latest",
-		"ms-vscode.makefile-tools": "latest",
-		"DavidAnson.vscode-markdownlint": "latest"
+		"github-cli": "latest"
 	}
 }
