@@ -15,7 +15,7 @@ jobs:
         lfs: true
     - name: Upload Posts
       run: |
-        . ./.tools/az/upload-posts.sh ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        . ./.tools/az/upload-posts.sh "${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
       
   # publish_to_website:
   #   name: Publish on davidwesst.com
