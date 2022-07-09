@@ -48,6 +48,7 @@ extract_tags() {
 publish_post() {
 	local file=$1
 
+	# TODO: do error handling in each extract method, starting with date commands
 	BLOG_SLUG=$(extract_slug $file)
     BLOG_TITLE=$(extract_title $file)
     BLOG_PUBLISH=$(extract_publish_date $file)
@@ -78,6 +79,10 @@ publish_post() {
 	echo "$BLOG_SLUG complete!"
 }
 
+is_post_different() {
+	return 1
+}
+
 # TODO: extract categories
 # TODO: extract excerpt from post content
 # TODO: calculate reading time and add as metadata
@@ -87,7 +92,16 @@ pushd $DIRECTORY 1> /dev/null
 
 # create array of post data
 for file in $(find */index.md); do
-	publish_post $file &
+
+	post_changed $file
+
+	if [ $? -eq 0 ]; then
+		publish_post $file
+	else
+		echo "$file is unchanged"
+	fi
+	# TODO: uncomment the publish
+	# publish_post $file &
 done
 
 wait
