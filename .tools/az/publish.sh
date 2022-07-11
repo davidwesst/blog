@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# dependencies: yq, az
+# dependencies: yq, jq, az
 
 
 
@@ -85,8 +85,13 @@ is_post_different() {
 	# calculate md5 of file locally
 	# reference: https://galdin.dev/blog/md5-has-checks-on-azure-blob-storage-files/
 	localmd5=`openssl dgst -md5 -binary $file | base64`
+	remotemd5=`az storage blob show --container-name blog --name $file --connection-string $AZURE_STORAGE_CONNECTION_STRING \
+				| jq --raw-output '.properties.contentSettings.contentMd5'`
 
-	
+	if [ $localmd5 != $remotemd5 ]; then
+		return 0
+	fi
+
 	return 1
 }
 
@@ -100,10 +105,11 @@ pushd $DIRECTORY 1> /dev/null
 # create array of post data
 for file in $(find */index.md); do
 
-	post_changed $file
+	is_post_different $file
 
 	if [ $? -eq 0 ]; then
-		publish_post $file
+		# publish_post $file
+		echo "$file is changed!"
 	else
 		echo "$file is unchanged"
 	fi
