@@ -80,6 +80,13 @@ publish_post() {
 }
 
 is_post_different() {
+	local file=$1
+
+	# calculate md5 of file locally
+	# reference: https://galdin.dev/blog/md5-has-checks-on-azure-blob-storage-files/
+	localmd5=`openssl dgst -md5 -binary $file | base64`
+
+	
 	return 1
 }
 
