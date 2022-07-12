@@ -1,3 +1,6 @@
-new_post:
-	mkdir -p ./posts/_new-post/
-	cp ./.templates/article.md ./posts/_new-post/
+SHELL = /bin/bash
+
+conn_string = ${AZURE_STORAGE_CONNECTION_STRING}
+
+run:
+	./.tools/az/publish.sh "$(conn_string)" ./posts/

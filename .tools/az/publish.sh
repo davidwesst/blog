@@ -4,7 +4,7 @@
 
 
 
-# process parameters
+# TODO: process and validate parameters
 AZURE_STORAGE_CONNECTION_STRING=$1
 DIRECTORY=.
 if [ -n $2 ]; then
@@ -48,6 +48,23 @@ extract_tags() {
 publish_post() {
 	local file=$1
 
+	# check if post already exists
+	is_new=$(is_post_new $file)
+
+	if [ $is_new == 1 ]; then
+		# if not new, check if changed
+		is_changed=$(is_post_different $file)
+	fi
+
+	if [[ $is_new == 0 || $is_changed == 0 ]]; then
+		echo "Uploading $file..."
+		upload_post $file 
+	fi
+}
+
+upload_post() {
+	local file=$1
+
 	# TODO: do error handling in each extract method, starting with date commands
 	BLOG_SLUG=$(extract_slug $file)
     BLOG_TITLE=$(extract_title $file)
@@ -59,7 +76,6 @@ publish_post() {
 	echo "$BLOG_SLUG start!"
 
 	# upload directory contents
-	# TODO: Conditional upload logic to only upload new and updated items (based on md5content)
 	az storage blob upload-batch \
 		--destination blog/$BLOG_SLUG \
 		--source $BLOG_SLUG \
@@ -79,8 +95,23 @@ publish_post() {
 	echo "$BLOG_SLUG complete!"
 }
 
+is_post_new() {
+	local file=$1
+	local retcode=1
+
+	# if exists, return 1
+	result=`az storage blob exists --container-name blog --name $file --connection-string $AZURE_STORAGE_CONNECTION_STRING \
+				| jq --raw-output '.exists'`
+	if [ $result == "false" ]; then
+		retcode=0
+	fi
+
+	echo $retcode
+}
+
 is_post_different() {
 	local file=$1
+	local retcode=0
 
 	# calculate md5 of file locally
 	# reference: https://galdin.dev/blog/md5-has-checks-on-azure-blob-storage-files/
@@ -88,11 +119,11 @@ is_post_different() {
 	remotemd5=`az storage blob show --container-name blog --name $file --connection-string $AZURE_STORAGE_CONNECTION_STRING \
 				| jq --raw-output '.properties.contentSettings.contentMd5'`
 
-	if [ $localmd5 != $remotemd5 ]; then
-		return 0
+	if [ $localmd5 == $remotemd5 ]; then
+		retcode=1
 	fi
 
-	return 1
+	echo $retcode
 }
 
 # TODO: extract categories
@@ -104,17 +135,7 @@ pushd $DIRECTORY 1> /dev/null
 
 # create array of post data
 for file in $(find */index.md); do
-
-	is_post_different $file
-
-	if [ $? -eq 0 ]; then
-		# publish_post $file
-		echo "$file is changed!"
-	else
-		echo "$file is unchanged"
-	fi
-	# TODO: uncomment the publish
-	# publish_post $file &
+	publish_post $file &
 done
 
 wait
