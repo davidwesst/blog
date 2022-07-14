@@ -14,14 +14,20 @@ fi
 publish_post() {
 	local file=$1
 
-	# check if post already exists
+	# check if post needs to be uploaded
 	is_new=$(is_post_new $file)
+	is_changed=$(is_post_different $file)
 
-	if [ $is_new == 1 ]; then
-		# if not new, check if changed
-		is_changed=$(is_post_different $file)
+	# log status
+	if [ $is_new == 0 ]; then
+		printf "%s...is new\n" $file
+	elif [ $is_changed == 0 ]; then
+		printf "%s...is changed\n" $file
+	else
+		printf "%s...no changes\n" $file
 	fi
 
+	# upload
 	if [[ $is_new == 0 || $is_changed == 0 ]]; then
 		echo "Uploading $file..."
 		upload_post $file 
@@ -33,7 +39,7 @@ upload_post() {
 
 	# TODO: do error handling in each extract method, starting with date commands
 	BLOG_SLUG=$(echo $file | sed 's/[/]index.md//')
-    BLOG_TITLE=$ $(yq --front-matter=extract '.title' $file)
+    BLOG_TITLE=$(yq --front-matter=extract '.title' $file)
     BLOG_PUBLISH=$(date --date `yq --front-matter=extract '.date' $file`)
     BLOG_LAST_MODIFIED=$(date --date `yq --front-matter=extract '.date' $file`)
     BLOG_DESCRIPTION=$(yq --front-matter=extract '.description' $file)
@@ -105,7 +111,7 @@ pushd $DIRECTORY 1> /dev/null
 
 # create array of post data
 for file in $(find */index.md); do
-	publish_post $file &
+	publish_post $file
 done
 
 wait
