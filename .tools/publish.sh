@@ -11,40 +11,6 @@ if [ -n $2 ]; then
 	DIRECTORY=$2
 fi
 
-extract_slug() {
-	local file=$1
-
-	echo $(echo $file | sed 's/[/]index.md//')
-}
-
-extract_title() {
-    local file=$1
-
-    echo $(yq --front-matter=extract '.title' $file) 
-}
-
-extract_publish_date() {
-    local file=$1
-
-    echo $(date --date `yq --front-matter=extract '.date' $file`) 
-}
-
-extract_last_modified_date() {
-    echo $(extract_publish_date $1)
-}
-
-extract_description() {
-    local file=$1
-
-    echo $(yq --front-matter=extract '.description' $file) 
-}
-
-extract_tags() {
-    local file=$1
-
-    echo $(yq --front-matter=extract --output-format=csv '.tags' $file) 
-}
-
 publish_post() {
 	local file=$1
 
@@ -66,30 +32,34 @@ upload_post() {
 	local file=$1
 
 	# TODO: do error handling in each extract method, starting with date commands
-	BLOG_SLUG=$(extract_slug $file)
-    BLOG_TITLE=$(extract_title $file)
-    BLOG_PUBLISH=$(extract_publish_date $file)
-    BLOG_LAST_MODIFIED=$(extract_last_modified_date $file)
-    BLOG_DESCRIPTION=$(extract_description $file)
-    BLOG_TAGS=$(extract_tags $file)
+	BLOG_SLUG=$(echo $file | sed 's/[/]index.md//')
+    BLOG_TITLE=$ $(yq --front-matter=extract '.title' $file)
+    BLOG_PUBLISH=$(date --date `yq --front-matter=extract '.date' $file`)
+    BLOG_LAST_MODIFIED=$(date --date `yq --front-matter=extract '.date' $file`)
+    BLOG_DESCRIPTION=$(yq --front-matter=extract '.description' $file)
+    BLOG_TAGS=$(yq --front-matter=extract --output-format=csv '.tags' $file)
 	
 	echo "$BLOG_SLUG start!"
 
 	# upload directory contents
-	az storage blob upload-batch \
-		--destination blog/$BLOG_SLUG \
-		--source $BLOG_SLUG \
-		--connection-string $AZURE_STORAGE_CONNECTION_STRING \
-		--overwrite \
-		--no-progress \
+	az storage blob upload-batch 								\
+		--destination blog/$BLOG_SLUG 							\
+		--source $BLOG_SLUG 									\
+		--connection-string $AZURE_STORAGE_CONNECTION_STRING 	\
+		--overwrite 											\
+		--no-progress 											\
 		--pattern "[!._]*" > /dev/null 2>&1
 
 	# update metadata on index.md file
-	az storage blob metadata update \
-		--name $file \
-		--container-name "blog" \
-		--connection-string $AZURE_STORAGE_CONNECTION_STRING \
-		--metadata slug=$BLOG_SLUG title="$BLOG_TITLE" publishDate="$BLOG_PUBLISH" description="$BLOG_DESCRIPTION" tags="$BLOG_TAGS" \
+	az storage blob metadata update 							\
+		--name $file 											\
+		--container-name "blog" 								\
+		--connection-string $AZURE_STORAGE_CONNECTION_STRING 	\
+		--metadata slug=$BLOG_SLUG 								\
+			title="$BLOG_TITLE" 								\
+			publishDate="$BLOG_PUBLISH" 						\
+			description="$BLOG_DESCRIPTION" 					\
+			tags="$BLOG_TAGS" 									\
 		> /dev/null 2>&1
 
 	echo "$BLOG_SLUG complete!"
