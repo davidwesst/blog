@@ -1,11 +1,10 @@
 name: Publish
 on:
   push:
-    # paths:
-    # - 'posts/**'
+    paths:
+    - 'posts/**'
     branches:
     - main
-    - rc/publish
 
 jobs:
   publish_to_storage:
