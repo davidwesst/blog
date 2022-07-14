@@ -46,6 +46,7 @@
 	"remoteUser": "vscode",
 	"features": {
 		"azure-cli": "latest",
+		"docker-from-docker": "latest",
 		"git-lfs": "latest",
 		"github-cli": "latest",
 		"sshd": "latest"
