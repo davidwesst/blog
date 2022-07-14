@@ -16,15 +16,19 @@ publish_post() {
 
 	# check if post needs to be uploaded
 	is_new=$(is_post_new $file)
-	is_changed=$(is_post_different $file)
+	if [ $is_new != 0 ]; then
+		is_changed=$(is_post_different $file)
+	else
+		is_changed=0
+	fi
 
 	# log status
 	if [ $is_new == 0 ]; then
-		printf "%s...is new\n" $file
+		printf "[NEW POST ] %s\n" $file
 	elif [ $is_changed == 0 ]; then
-		printf "%s...is changed\n" $file
+		printf "[EDITED   ] %s\n" $file
 	else
-		printf "%s...no changes\n" $file
+		printf "[NO CHANGE] %s\n" $file
 	fi
 
 	# upload
@@ -111,7 +115,7 @@ pushd $DIRECTORY 1> /dev/null
 
 # create array of post data
 for file in $(find */index.md); do
-	publish_post $file
+	publish_post $file 
 done
 
 wait

@@ -19,5 +19,10 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # RUN go get -x <your-dependency-or-tool>
 RUN go install github.com/mikefarah/yq/v4@latest
 
+# Install ACT to test GH actions
+RUN curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash \ 
+    && mv ./bin/* /usr/local/bin/ \
+    && rm -rf ./bin
+
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
