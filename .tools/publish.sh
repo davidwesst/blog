@@ -115,7 +115,7 @@ pushd $DIRECTORY 1> /dev/null
 
 # create array of post data
 for file in $(find */index.md); do
-	publish_post $file &
+	publish_post $file 
 done
 
 wait
