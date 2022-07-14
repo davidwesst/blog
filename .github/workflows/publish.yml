@@ -1,18 +1,20 @@
 name: Publish
 on:
   push:
+    paths:
+    - 'posts/**'
     branches:
     - main
 
 jobs:
-  publish_to_website:
-    name: Publish on davidwesst.com
+  publish_to_storage:
+    name: Publish to AZ Blob Storage
     runs-on: ubuntu-latest
     steps:
-    - name: Trigger Website Publish
-      uses: peter-evans/repository-dispatch@v1
+    - name: Checkout
+      uses: actions/checkout@v3
       with:
-        repository: davidwesst/website
-        token: ${{ secrets.WEBSITE_ACCESS_TOKEN }}
-        event-type: blog-update
-        client-payload: '{ "sha": "${{ github.sha }}" }'
+        lfs: true
+    - name: Publish Posts
+      run: |
+        . ./.tools/publish.sh "${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}" ./posts/
