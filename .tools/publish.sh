@@ -16,15 +16,19 @@ publish_post() {
 
 	# check if post needs to be uploaded
 	is_new=$(is_post_new $file)
-	is_changed=$(is_post_different $file)
+	if [ $is_new != 0 ]; then
+		is_changed=$(is_post_different $file)
+	else
+		is_changed=0
+	fi
 
 	# log status
 	if [ $is_new == 0 ]; then
-		printf "%s...is new\n" $file
+		printf "[NEW ] %s\n" $file
 	elif [ $is_changed == 0 ]; then
-		printf "%s...is changed\n" $file
+		printf "[EDIT] %s\n" $file
 	else
-		printf "%s...no changes\n" $file
+		printf "[NONE] %s\n" $file
 	fi
 
 	# upload
