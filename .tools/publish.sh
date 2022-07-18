@@ -11,6 +11,11 @@ if [ -n $2 ]; then
 	DIRECTORY=$2
 fi
 
+FORCE_UPLOAD=0
+if [ $FORCE_UPLOAD != 0 ]; then
+	echo "WARNING! FORCE_UPLOAD set to $FORCE_UPLOAD."
+fi
+
 publish_post() {
 	local file=$1
 
@@ -32,7 +37,7 @@ publish_post() {
 	fi
 
 	# upload
-	if [[ $is_new == 0 || $is_changed == 0 ]]; then
+	if [[ $FORCE_UPLOAD == 1 || $is_new == 0 || $is_changed == 0 ]]; then
 		echo "Uploading $file..."
 		upload_post $file 
 	fi
@@ -44,7 +49,7 @@ upload_post() {
 	# TODO: do error handling in each extract method, starting with date commands
 	BLOG_SLUG=$(echo $file | sed 's/[/]index.md//')
     BLOG_TITLE=$(yq --front-matter=extract '.title' $file)
-    BLOG_PUBLISH=$(date --date `yq --front-matter=extract '.date' $file`)
+    BLOG_PUBLISH=$(date --iso-8601=seconds --date `yq --front-matter=extract '.date' $file`)
     BLOG_LAST_MODIFIED=$(date --date `yq --front-matter=extract '.date' $file`)
     BLOG_DESCRIPTION=$(yq --front-matter=extract '.description' $file)
     BLOG_TAGS=$(yq --front-matter=extract --output-format=csv '.tags' $file)
