@@ -2,7 +2,7 @@
 title: "Why Networking is Critical"
 date: "2015-07-09T23:03:33"
 tags:
-	- Professional Development
+  - professional development
 description: "With my new gig as an Application Developer, I started back into technology podcasts. I'm not sure how I came across MSDevShow, but I did notice that Lori Lalonde, the wizard of mobile development in Microsoft-land, was in an episode and decided: Why not?."
 ---
 
@@ -37,4 +37,3 @@ The cliché of "It's not what you know, it's who you know" is partially true. Ra
 If you are looking to make a move, realize that building and keeping a professional network of other like-minded individuals is just as important as being great a what you do.
 
 Thanks for playing. ~ DW
-
