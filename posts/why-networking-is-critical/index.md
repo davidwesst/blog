@@ -1,5 +1,5 @@
 ---
-title: Why Networking is Critical
+title: "Why Networking is Critical"
 date: "2015-07-09T23:03:33"
 tags:
 	- Professional Development
